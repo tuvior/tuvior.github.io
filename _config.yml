@@ -31,7 +31,7 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: tuvior.github.io
 url: https://tuvior.github.io # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "" # the favicon for your site
+favicon: "/assets/favicon.ico" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -128,12 +128,12 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+  - index.md
+  - archives.md
+  - categories.md
+  - tags.md
+  - about.md
 
 # Page default value
 # defaults:
