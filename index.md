@@ -4,5 +4,9 @@
 
 layout: home
 title: Home
-banner: "/assets/images/banners/home.jpeg"
+heading: A collection of thoughts
+subheading: Content might come at some point
+banner:
+    image: /assets/images/banners/home.jpg
+    subheading_style: 'font-weight: 300'
 ---
