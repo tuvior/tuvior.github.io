@@ -7,6 +7,10 @@
 title: tuvior
 email: tobiasuztl@gmail.com
 author: tuvior
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
 remote_theme: jeffreytse/jekyll-theme-yat
 
@@ -17,43 +21,32 @@ remote_theme: jeffreytse/jekyll-theme-yat
 # * copyright: (c) - ©
 # * copyleft: (cleft)
 # * sound recording copyright: (p) - ℗
-#
-# For example:
-#   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
-#   "Copyright © 2017-2021 Foobar"
-#
 copyright: "Unpublished (cleft) 2021-{currentYear} {author}"
 
-description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" 
 domain: tuvior.github.io
-url: https://tuvior.github.io # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "/assets/images/favicon.ico" # the favicon for your site
+url: https://tuvior.github.io 
+favicon: "/assets/images/favicon.ico"
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
   date_format: "%b %d, %Y"
 
-# If you want more debug log, you can set true
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - index.md
+  - archives.md
+  - categories.md
+  - tags.md
+  - about.md
+
 # debug: false
-
-# If you don't want transparent header, you can set false
 # header_transparent: true
-
-# If you want to change the content width, you can set to another value
 # content_width: "920px"
-
-# Google analytics
 # google_analytics: [Tracking ID]
-
-# If you want to generate website sitemap, you can set true
 # sitemap: false
-
-# If you want to change site language, you can set lang option
 # lang: "en"  # default lang is en
 
 # Translate languges
@@ -126,15 +119,6 @@ yat:
 #   background_color: "#ff4e00"
 #   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
-  - index.md
-  - archives.md
-  - categories.md
-  - tags.md
-  - about.md
-
 # Page default value
 # defaults:
 #   home:
@@ -188,3 +172,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+  - jekyll-remote-theme
