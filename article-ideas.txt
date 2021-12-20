@@ -1,0 +1,2 @@
+- All work related google searches in a week explained.
+- Some reverse engineering stuff.

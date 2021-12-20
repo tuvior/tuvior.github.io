@@ -21,7 +21,7 @@ remote_theme: jeffreytse/jekyll-theme-yat
 # * copyright: (c) - ©
 # * copyleft: (cleft)
 # * sound recording copyright: (p) - ℗
-copyright: "Unpublished (cleft) 2021-{currentYear} {author}"
+copyright: "Copyright (c) 2021-{currentYear} {author}"
 
 baseurl: "" 
 domain: tuvior.github.io
